@@ -1,5 +1,24 @@
 # Netflix Movies and TV Shows Analysis
 
+## Visual highlights
+
+<table>
+  <tr>
+    <td><img src="images/01_content_type.png" width="420" alt="Movies versus TV Shows"><br><b>Movies vs TV Shows</b></td>
+    <td><img src="images/02_additions_by_year.png" width="420" alt="Netflix additions by year"><br><b>Additions by year</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/04_top_countries.png" width="420" alt="Top countries by title count"><br><b>Top countries</b></td>
+    <td><img src="images/06_top_genres.png" width="420" alt="Top Netflix genres"><br><b>Top genres</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/09_rating_groups.png" width="420" alt="Content rating groups"><br><b>Rating groups</b></td>
+    <td><img src="images/10_movie_duration.png" width="420" alt="Movie duration distribution"><br><b>Movie duration</b></td>
+  </tr>
+</table>
+
+**At a glance:** 8,807 titles analyzed · 69.6% Movies · Peak recorded additions: 2,016 titles in 2019 · Top country: United States (3,690 titles)
+
 ## Problem statement
 Explore the composition and recorded addition patterns of Netflix titles using Python. This project analyzes a public Kaggle catalog snapshot; it cannot tell us which titles people watched or liked.
 
@@ -60,15 +79,7 @@ Missing values by column (before → after):
 - India's recorded additions peaked in 2018 (349 titles). These are catalog metadata counts, not audience demand.
 
 ## Charts
-The notebook was run end-to-end and saved all charts in `images/`.
-
-![Catalog by type](images/01_content_type.png)
-![Additions by year](images/02_additions_by_year.png)
-![Top countries](images/04_top_countries.png)
-![Top genres](images/06_top_genres.png)
-![Rating groups](images/09_rating_groups.png)
-![Movie duration](images/10_movie_duration.png)
-![Country and genre heatmap](images/15_country_genre_heatmap.png)
+All 17 charts are saved in images/; the notebook was run end-to-end.
 
 ## Run it
 1. Install Python 3.10 or newer.
@@ -81,3 +92,5 @@ This dataset is a snapshot; it has no viewership, ratings/reviews, revenue, or l
 
 ## Future improvements
 Join a licensed IMDb ratings dataset, add content costs and viewing metrics if available, or build a Power BI dashboard from `data/cleaned/netflix_cleaned.csv`.
+
+
